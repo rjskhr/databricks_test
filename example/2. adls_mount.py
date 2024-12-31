@@ -17,3 +17,8 @@ for mountPoint in mountPoints:
 # COMMAND ----------
 
 dbutils.fs.mounts()
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select * from audit.load_logs
